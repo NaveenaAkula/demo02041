@@ -1,0 +1,31 @@
+.tp-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(71, 38, 160) !important;
+    height: 100%;
+    width: 5vw;
+ }
+ .tp-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+    width:100px;   
+ }
+
+ mat-toolbar > a.home
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 12px;
+}
+
+
+button
+{
+	margin-left: 12px;
+}
